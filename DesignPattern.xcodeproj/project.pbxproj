@@ -27,7 +27,19 @@
 		3502CDC522510BAA00CEDAC0 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDBD22510BAA00CEDAC0 /* Decorator.m */; };
 		3502CDC622510BAA00CEDAC0 /* NokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDC022510BAA00CEDAC0 /* NokiaPhone.m */; };
 		3502CDC722510BAA00CEDAC0 /* DecoratorGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDC122510BAA00CEDAC0 /* DecoratorGPS.m */; };
+		3502CDCF22511C3600CEDAC0 /* DesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDCE22511C3600CEDAC0 /* DesignPatternTests.m */; };
+		3502CDD122511C3600CEDAC0 /* libDesignPattern.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502CD60225103E500CEDAC0 /* libDesignPattern.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3502CDD222511C3600CEDAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3502CD58225103E500CEDAC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3502CD5F225103E500CEDAC0;
+			remoteInfo = DesignPattern;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3502CD5E225103E500CEDAC0 /* CopyFiles */ = {
@@ -84,6 +96,9 @@
 		3502CDC022510BAA00CEDAC0 /* NokiaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NokiaPhone.m; sourceTree = "<group>"; };
 		3502CDC122510BAA00CEDAC0 /* DecoratorGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGPS.m; sourceTree = "<group>"; };
 		3502CDC222510BAA00CEDAC0 /* DecoratorWifi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorWifi.h; sourceTree = "<group>"; };
+		3502CDCC22511C3600CEDAC0 /* DesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3502CDCE22511C3600CEDAC0 /* DesignPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternTests.m; sourceTree = "<group>"; };
+		3502CDD022511C3600CEDAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +109,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3502CDC922511C3600CEDAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502CDD122511C3600CEDAC0 /* libDesignPattern.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3502CD62225103E500CEDAC0 /* DesignPattern */,
+				3502CDCD22511C3600CEDAC0 /* DesignPatternTests */,
 				3502CD61225103E500CEDAC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				3502CD60225103E500CEDAC0 /* libDesignPattern.a */,
+				3502CDCC22511C3600CEDAC0 /* DesignPatternTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +233,15 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		3502CDCD22511C3600CEDAC0 /* DesignPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				3502CDCE22511C3600CEDAC0 /* DesignPatternTests.m */,
+				3502CDD022511C3600CEDAC0 /* Info.plist */,
+			);
+			path = DesignPatternTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +262,24 @@
 			productReference = 3502CD60225103E500CEDAC0 /* libDesignPattern.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		3502CDCB22511C3600CEDAC0 /* DesignPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3502CDD422511C3600CEDAC0 /* Build configuration list for PBXNativeTarget "DesignPatternTests" */;
+			buildPhases = (
+				3502CDC822511C3600CEDAC0 /* Sources */,
+				3502CDC922511C3600CEDAC0 /* Frameworks */,
+				3502CDCA22511C3600CEDAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3502CDD322511C3600CEDAC0 /* PBXTargetDependency */,
+			);
+			name = DesignPatternTests;
+			productName = DesignPatternTests;
+			productReference = 3502CDCC22511C3600CEDAC0 /* DesignPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,10 +287,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OYO;
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = oyohotels.cn;
 				TargetAttributes = {
 					3502CD5F225103E500CEDAC0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3502CDCB22511C3600CEDAC0 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -256,9 +312,20 @@
 			projectRoot = "";
 			targets = (
 				3502CD5F225103E500CEDAC0 /* DesignPattern */,
+				3502CDCB22511C3600CEDAC0 /* DesignPatternTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3502CDCA22511C3600CEDAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3502CD5C225103E500CEDAC0 /* Sources */ = {
@@ -287,7 +354,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3502CDC822511C3600CEDAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502CDCF22511C3600CEDAC0 /* DesignPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3502CDD322511C3600CEDAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3502CD5F225103E500CEDAC0 /* DesignPattern */;
+			targetProxy = 3502CDD222511C3600CEDAC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3502CD67225103E500CEDAC0 /* Debug */ = {
@@ -424,6 +507,38 @@
 			};
 			name = Release;
 		};
+		3502CDD522511C3600CEDAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OYO.DesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3502CDD622511C3600CEDAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesignPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OYO.DesignPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +556,15 @@
 			buildConfigurations = (
 				3502CD6A225103E500CEDAC0 /* Debug */,
 				3502CD6B225103E500CEDAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3502CDD422511C3600CEDAC0 /* Build configuration list for PBXNativeTarget "DesignPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3502CDD522511C3600CEDAC0 /* Debug */,
+				3502CDD622511C3600CEDAC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
