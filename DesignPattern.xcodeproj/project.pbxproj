@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3502CD65225103E500CEDAC0 /* DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD64225103E500CEDAC0 /* DesignPattern.m */; };
+		3502CD66225103E500CEDAC0 /* DesignPattern.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3502CD63225103E500CEDAC0 /* DesignPattern.h */; };
+		3502CD752251066B00CEDAC0 /* SomeSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD742251066B00CEDAC0 /* SomeSubscriber.m */; };
+		3502CD78225106C500CEDAC0 /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD77225106C500CEDAC0 /* OtherSubscriber.m */; };
+		3502CD7E225106EA00CEDAC0 /* StandardSubjectImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */; };
+		3502CD872251096700CEDAC0 /* InputTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */; };
+		3502CD882251096700CEDAC0 /* LatterTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */; };
+		3502CD892251096700CEDAC0 /* NumberTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */; };
+		3502CD8A2251096700CEDAC0 /* ConsumerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD832251096700CEDAC0 /* ConsumerTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3502CD5E225103E500CEDAC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3502CD66225103E500CEDAC0 /* DesignPattern.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3502CD60225103E500CEDAC0 /* libDesignPattern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDesignPattern.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3502CD63225103E500CEDAC0 /* DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPattern.h; sourceTree = "<group>"; };
+		3502CD64225103E500CEDAC0 /* DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern.m; sourceTree = "<group>"; };
+		3502CD722251062A00CEDAC0 /* StandardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardObserver.h; sourceTree = "<group>"; };
+		3502CD732251066B00CEDAC0 /* SomeSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeSubscriber.h; sourceTree = "<group>"; };
+		3502CD742251066B00CEDAC0 /* SomeSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeSubscriber.m; sourceTree = "<group>"; };
+		3502CD76225106C500CEDAC0 /* OtherSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSubscriber.h; sourceTree = "<group>"; };
+		3502CD77225106C500CEDAC0 /* OtherSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSubscriber.m; sourceTree = "<group>"; };
+		3502CD7C225106EA00CEDAC0 /* StandardSubjectImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardSubjectImplementation.h; sourceTree = "<group>"; };
+		3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardSubjectImplementation.m; sourceTree = "<group>"; };
+		3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatterTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD812251096700CEDAC0 /* InputTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD832251096700CEDAC0 /* ConsumerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumerTextField.m; sourceTree = "<group>"; };
+		3502CD842251096700CEDAC0 /* LatterTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatterTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD852251096700CEDAC0 /* NumberTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD862251096700CEDAC0 /* ConsumerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerTextField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3502CD5D225103E500CEDAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3502CD57225103E500CEDAC0 = {
+			isa = PBXGroup;
+			children = (
+				3502CD62225103E500CEDAC0 /* DesignPattern */,
+				3502CD61225103E500CEDAC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3502CD61225103E500CEDAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3502CD60225103E500CEDAC0 /* libDesignPattern.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3502CD62225103E500CEDAC0 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				3502CD6C2251058600CEDAC0 /* DesignPattern */,
+				3502CD63225103E500CEDAC0 /* DesignPattern.h */,
+				3502CD64225103E500CEDAC0 /* DesignPattern.m */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		3502CD6C2251058600CEDAC0 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				3502CD6D2251058600CEDAC0 /* Decoration */,
+				3502CD6E2251058600CEDAC0 /* Observer */,
+				3502CD6F2251058600CEDAC0 /* Adapter */,
+				3502CD702251058600CEDAC0 /* Mediator */,
+				3502CD712251058600CEDAC0 /* Strategy */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		3502CD6D2251058600CEDAC0 /* Decoration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decoration;
+			sourceTree = "<group>";
+		};
+		3502CD6E2251058600CEDAC0 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				3502CD722251062A00CEDAC0 /* StandardObserver.h */,
+				3502CD732251066B00CEDAC0 /* SomeSubscriber.h */,
+				3502CD742251066B00CEDAC0 /* SomeSubscriber.m */,
+				3502CD76225106C500CEDAC0 /* OtherSubscriber.h */,
+				3502CD77225106C500CEDAC0 /* OtherSubscriber.m */,
+				3502CD7C225106EA00CEDAC0 /* StandardSubjectImplementation.h */,
+				3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		3502CD6F2251058600CEDAC0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3502CD702251058600CEDAC0 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		3502CD712251058600CEDAC0 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				3502CD862251096700CEDAC0 /* ConsumerTextField.h */,
+				3502CD832251096700CEDAC0 /* ConsumerTextField.m */,
+				3502CD812251096700CEDAC0 /* InputTextFieldValidate.h */,
+				3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */,
+				3502CD842251096700CEDAC0 /* LatterTextFieldValidate.h */,
+				3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */,
+				3502CD852251096700CEDAC0 /* NumberTextFieldValidate.h */,
+				3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3502CD5F225103E500CEDAC0 /* DesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3502CD69225103E500CEDAC0 /* Build configuration list for PBXNativeTarget "DesignPattern" */;
+			buildPhases = (
+				3502CD5C225103E500CEDAC0 /* Sources */,
+				3502CD5D225103E500CEDAC0 /* Frameworks */,
+				3502CD5E225103E500CEDAC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPattern;
+			productName = DesignPattern;
+			productReference = 3502CD60225103E500CEDAC0 /* libDesignPattern.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3502CD58225103E500CEDAC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OYO;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = oyohotels.cn;
+				TargetAttributes = {
+					3502CD5F225103E500CEDAC0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3502CD5B225103E500CEDAC0 /* Build configuration list for PBXProject "DesignPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3502CD57225103E500CEDAC0;
+			productRefGroup = 3502CD61225103E500CEDAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3502CD5F225103E500CEDAC0 /* DesignPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3502CD5C225103E500CEDAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502CD65225103E500CEDAC0 /* DesignPattern.m in Sources */,
+				3502CD752251066B00CEDAC0 /* SomeSubscriber.m in Sources */,
+				3502CD892251096700CEDAC0 /* NumberTextFieldValidate.m in Sources */,
+				3502CD8A2251096700CEDAC0 /* ConsumerTextField.m in Sources */,
+				3502CD78225106C500CEDAC0 /* OtherSubscriber.m in Sources */,
+				3502CD7E225106EA00CEDAC0 /* StandardSubjectImplementation.m in Sources */,
+				3502CD872251096700CEDAC0 /* InputTextFieldValidate.m in Sources */,
+				3502CD882251096700CEDAC0 /* LatterTextFieldValidate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3502CD67225103E500CEDAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3502CD68225103E500CEDAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3502CD6A225103E500CEDAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3502CD6B225103E500CEDAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3502CD5B225103E500CEDAC0 /* Build configuration list for PBXProject "DesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3502CD67225103E500CEDAC0 /* Debug */,
+				3502CD68225103E500CEDAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3502CD69225103E500CEDAC0 /* Build configuration list for PBXNativeTarget "DesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3502CD6A225103E500CEDAC0 /* Debug */,
+				3502CD6B225103E500CEDAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3502CD58225103E500CEDAC0 /* Project object */;
+}
