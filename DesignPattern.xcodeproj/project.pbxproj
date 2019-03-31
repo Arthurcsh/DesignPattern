@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		3502CD65225103E500CEDAC0 /* DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD64225103E500CEDAC0 /* DesignPattern.m */; };
 		3502CD66225103E500CEDAC0 /* DesignPattern.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3502CD63225103E500CEDAC0 /* DesignPattern.h */; };
-		3502CD752251066B00CEDAC0 /* SomeSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD742251066B00CEDAC0 /* SomeSubscriber.m */; };
-		3502CD78225106C500CEDAC0 /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD77225106C500CEDAC0 /* OtherSubscriber.m */; };
-		3502CD7E225106EA00CEDAC0 /* StandardSubjectImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */; };
-		3502CD872251096700CEDAC0 /* InputTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */; };
-		3502CD882251096700CEDAC0 /* LatterTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */; };
-		3502CD892251096700CEDAC0 /* NumberTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */; };
-		3502CD8A2251096700CEDAC0 /* ConsumerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD832251096700CEDAC0 /* ConsumerTextField.m */; };
+		3502CD9F22510B0E00CEDAC0 /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9022510B0E00CEDAC0 /* OtherSubscriber.m */; };
+		3502CDA022510B0E00CEDAC0 /* StandardSubjectImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9122510B0E00CEDAC0 /* StandardSubjectImplementation.m */; };
+		3502CDA122510B0E00CEDAC0 /* SomeSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9322510B0E00CEDAC0 /* SomeSubscriber.m */; };
+		3502CDA222510B0E00CEDAC0 /* NumberTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9622510B0E00CEDAC0 /* NumberTextFieldValidate.m */; };
+		3502CDA322510B0E00CEDAC0 /* ConsumerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9822510B0E00CEDAC0 /* ConsumerTextField.m */; };
+		3502CDA422510B0E00CEDAC0 /* InputTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9A22510B0E00CEDAC0 /* InputTextFieldValidate.m */; };
+		3502CDA522510B0E00CEDAC0 /* LatterTextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CD9B22510B0E00CEDAC0 /* LatterTextFieldValidate.m */; };
+		3502CDB322510B8D00CEDAC0 /* ModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDA722510B8D00CEDAC0 /* ModelAdapter.m */; };
+		3502CDB422510B8D00CEDAC0 /* AbstractAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDA822510B8D00CEDAC0 /* AbstractAdapter.m */; };
+		3502CDB522510B8D00CEDAC0 /* ModelAdapterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDA922510B8D00CEDAC0 /* ModelAdapterManager.m */; };
+		3502CDB622510B8D00CEDAC0 /* OtherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDAB22510B8D00CEDAC0 /* OtherModel.m */; };
+		3502CDB722510B8D00CEDAC0 /* OtherModeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDAE22510B8D00CEDAC0 /* OtherModeAdapter.m */; };
+		3502CDB822510B8D00CEDAC0 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDAF22510B8D00CEDAC0 /* Model.m */; };
+		3502CDC322510BAA00CEDAC0 /* AbstractCellPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDB922510BAA00CEDAC0 /* AbstractCellPhone.m */; };
+		3502CDC422510BAA00CEDAC0 /* DecoratorWifi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDBA22510BAA00CEDAC0 /* DecoratorWifi.m */; };
+		3502CDC522510BAA00CEDAC0 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDBD22510BAA00CEDAC0 /* Decorator.m */; };
+		3502CDC622510BAA00CEDAC0 /* NokiaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDC022510BAA00CEDAC0 /* NokiaPhone.m */; };
+		3502CDC722510BAA00CEDAC0 /* DecoratorGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3502CDC122510BAA00CEDAC0 /* DecoratorGPS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,21 +46,44 @@
 		3502CD60225103E500CEDAC0 /* libDesignPattern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDesignPattern.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3502CD63225103E500CEDAC0 /* DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPattern.h; sourceTree = "<group>"; };
 		3502CD64225103E500CEDAC0 /* DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern.m; sourceTree = "<group>"; };
-		3502CD722251062A00CEDAC0 /* StandardObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardObserver.h; sourceTree = "<group>"; };
-		3502CD732251066B00CEDAC0 /* SomeSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeSubscriber.h; sourceTree = "<group>"; };
-		3502CD742251066B00CEDAC0 /* SomeSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeSubscriber.m; sourceTree = "<group>"; };
-		3502CD76225106C500CEDAC0 /* OtherSubscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSubscriber.h; sourceTree = "<group>"; };
-		3502CD77225106C500CEDAC0 /* OtherSubscriber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSubscriber.m; sourceTree = "<group>"; };
-		3502CD7C225106EA00CEDAC0 /* StandardSubjectImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardSubjectImplementation.h; sourceTree = "<group>"; };
-		3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardSubjectImplementation.m; sourceTree = "<group>"; };
-		3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextFieldValidate.m; sourceTree = "<group>"; };
-		3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatterTextFieldValidate.m; sourceTree = "<group>"; };
-		3502CD812251096700CEDAC0 /* InputTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextFieldValidate.h; sourceTree = "<group>"; };
-		3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTextFieldValidate.m; sourceTree = "<group>"; };
-		3502CD832251096700CEDAC0 /* ConsumerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumerTextField.m; sourceTree = "<group>"; };
-		3502CD842251096700CEDAC0 /* LatterTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatterTextFieldValidate.h; sourceTree = "<group>"; };
-		3502CD852251096700CEDAC0 /* NumberTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTextFieldValidate.h; sourceTree = "<group>"; };
-		3502CD862251096700CEDAC0 /* ConsumerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerTextField.h; sourceTree = "<group>"; };
+		3502CD8D22510B0E00CEDAC0 /* StandardSubjectImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardSubjectImplementation.h; sourceTree = "<group>"; };
+		3502CD8E22510B0E00CEDAC0 /* OtherSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherSubscriber.h; sourceTree = "<group>"; };
+		3502CD8F22510B0E00CEDAC0 /* SomeSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeSubscriber.h; sourceTree = "<group>"; };
+		3502CD9022510B0E00CEDAC0 /* OtherSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherSubscriber.m; sourceTree = "<group>"; };
+		3502CD9122510B0E00CEDAC0 /* StandardSubjectImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardSubjectImplementation.m; sourceTree = "<group>"; };
+		3502CD9222510B0E00CEDAC0 /* StandardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardObserver.h; sourceTree = "<group>"; };
+		3502CD9322510B0E00CEDAC0 /* SomeSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeSubscriber.m; sourceTree = "<group>"; };
+		3502CD9522510B0E00CEDAC0 /* InputTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD9622510B0E00CEDAC0 /* NumberTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD9722510B0E00CEDAC0 /* LatterTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatterTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD9822510B0E00CEDAC0 /* ConsumerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumerTextField.m; sourceTree = "<group>"; };
+		3502CD9922510B0E00CEDAC0 /* NumberTextFieldValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTextFieldValidate.h; sourceTree = "<group>"; };
+		3502CD9A22510B0E00CEDAC0 /* InputTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD9B22510B0E00CEDAC0 /* LatterTextFieldValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatterTextFieldValidate.m; sourceTree = "<group>"; };
+		3502CD9C22510B0E00CEDAC0 /* ConsumerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerTextField.h; sourceTree = "<group>"; };
+		3502CDA622510B8D00CEDAC0 /* ModelAdapterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAdapterManager.h; sourceTree = "<group>"; };
+		3502CDA722510B8D00CEDAC0 /* ModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAdapter.m; sourceTree = "<group>"; };
+		3502CDA822510B8D00CEDAC0 /* AbstractAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractAdapter.m; sourceTree = "<group>"; };
+		3502CDA922510B8D00CEDAC0 /* ModelAdapterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelAdapterManager.m; sourceTree = "<group>"; };
+		3502CDAA22510B8D00CEDAC0 /* OtherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherModel.h; sourceTree = "<group>"; };
+		3502CDAB22510B8D00CEDAC0 /* OtherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherModel.m; sourceTree = "<group>"; };
+		3502CDAC22510B8D00CEDAC0 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3502CDAD22510B8D00CEDAC0 /* OtherModeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherModeAdapter.h; sourceTree = "<group>"; };
+		3502CDAE22510B8D00CEDAC0 /* OtherModeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherModeAdapter.m; sourceTree = "<group>"; };
+		3502CDAF22510B8D00CEDAC0 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		3502CDB022510B8D00CEDAC0 /* AbstractAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractAdapter.h; sourceTree = "<group>"; };
+		3502CDB122510B8D00CEDAC0 /* ModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelAdapter.h; sourceTree = "<group>"; };
+		3502CDB222510B8D00CEDAC0 /* ContentViewAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewAdapterProtocol.h; sourceTree = "<group>"; };
+		3502CDB922510BAA00CEDAC0 /* AbstractCellPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCellPhone.m; sourceTree = "<group>"; };
+		3502CDBA22510BAA00CEDAC0 /* DecoratorWifi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorWifi.m; sourceTree = "<group>"; };
+		3502CDBB22510BAA00CEDAC0 /* NokiaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NokiaPhone.h; sourceTree = "<group>"; };
+		3502CDBC22510BAA00CEDAC0 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		3502CDBD22510BAA00CEDAC0 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		3502CDBE22510BAA00CEDAC0 /* DecoratorGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorGPS.h; sourceTree = "<group>"; };
+		3502CDBF22510BAA00CEDAC0 /* AbstractCellPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCellPhone.h; sourceTree = "<group>"; };
+		3502CDC022510BAA00CEDAC0 /* NokiaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NokiaPhone.m; sourceTree = "<group>"; };
+		3502CDC122510BAA00CEDAC0 /* DecoratorGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGPS.m; sourceTree = "<group>"; };
+		3502CDC222510BAA00CEDAC0 /* DecoratorWifi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorWifi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,63 +126,86 @@
 		3502CD6C2251058600CEDAC0 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				3502CD6D2251058600CEDAC0 /* Decoration */,
-				3502CD6E2251058600CEDAC0 /* Observer */,
-				3502CD6F2251058600CEDAC0 /* Adapter */,
-				3502CD702251058600CEDAC0 /* Mediator */,
-				3502CD712251058600CEDAC0 /* Strategy */,
+				3502CD9E22510B0E00CEDAC0 /* Adapter */,
+				3502CD8B22510B0E00CEDAC0 /* Decoration */,
+				3502CD9D22510B0E00CEDAC0 /* Mediator */,
+				3502CD8C22510B0E00CEDAC0 /* Observer */,
+				3502CD9422510B0E00CEDAC0 /* Strategy */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
 		};
-		3502CD6D2251058600CEDAC0 /* Decoration */ = {
+		3502CD8B22510B0E00CEDAC0 /* Decoration */ = {
 			isa = PBXGroup;
 			children = (
+				3502CDBF22510BAA00CEDAC0 /* AbstractCellPhone.h */,
+				3502CDB922510BAA00CEDAC0 /* AbstractCellPhone.m */,
+				3502CDBC22510BAA00CEDAC0 /* Decorator.h */,
+				3502CDBD22510BAA00CEDAC0 /* Decorator.m */,
+				3502CDBE22510BAA00CEDAC0 /* DecoratorGPS.h */,
+				3502CDC122510BAA00CEDAC0 /* DecoratorGPS.m */,
+				3502CDC222510BAA00CEDAC0 /* DecoratorWifi.h */,
+				3502CDBA22510BAA00CEDAC0 /* DecoratorWifi.m */,
+				3502CDBB22510BAA00CEDAC0 /* NokiaPhone.h */,
+				3502CDC022510BAA00CEDAC0 /* NokiaPhone.m */,
 			);
 			path = Decoration;
 			sourceTree = "<group>";
 		};
-		3502CD6E2251058600CEDAC0 /* Observer */ = {
+		3502CD8C22510B0E00CEDAC0 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
-				3502CD722251062A00CEDAC0 /* StandardObserver.h */,
-				3502CD732251066B00CEDAC0 /* SomeSubscriber.h */,
-				3502CD742251066B00CEDAC0 /* SomeSubscriber.m */,
-				3502CD76225106C500CEDAC0 /* OtherSubscriber.h */,
-				3502CD77225106C500CEDAC0 /* OtherSubscriber.m */,
-				3502CD7C225106EA00CEDAC0 /* StandardSubjectImplementation.h */,
-				3502CD7D225106EA00CEDAC0 /* StandardSubjectImplementation.m */,
+				3502CD8D22510B0E00CEDAC0 /* StandardSubjectImplementation.h */,
+				3502CD8E22510B0E00CEDAC0 /* OtherSubscriber.h */,
+				3502CD8F22510B0E00CEDAC0 /* SomeSubscriber.h */,
+				3502CD9022510B0E00CEDAC0 /* OtherSubscriber.m */,
+				3502CD9122510B0E00CEDAC0 /* StandardSubjectImplementation.m */,
+				3502CD9222510B0E00CEDAC0 /* StandardObserver.h */,
+				3502CD9322510B0E00CEDAC0 /* SomeSubscriber.m */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
 		};
-		3502CD6F2251058600CEDAC0 /* Adapter */ = {
+		3502CD9422510B0E00CEDAC0 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				3502CD9522510B0E00CEDAC0 /* InputTextFieldValidate.h */,
+				3502CD9622510B0E00CEDAC0 /* NumberTextFieldValidate.m */,
+				3502CD9722510B0E00CEDAC0 /* LatterTextFieldValidate.h */,
+				3502CD9822510B0E00CEDAC0 /* ConsumerTextField.m */,
+				3502CD9922510B0E00CEDAC0 /* NumberTextFieldValidate.h */,
+				3502CD9A22510B0E00CEDAC0 /* InputTextFieldValidate.m */,
+				3502CD9B22510B0E00CEDAC0 /* LatterTextFieldValidate.m */,
+				3502CD9C22510B0E00CEDAC0 /* ConsumerTextField.h */,
 			);
-			path = Adapter;
+			path = Strategy;
 			sourceTree = "<group>";
 		};
-		3502CD702251058600CEDAC0 /* Mediator */ = {
+		3502CD9D22510B0E00CEDAC0 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Mediator;
 			sourceTree = "<group>";
 		};
-		3502CD712251058600CEDAC0 /* Strategy */ = {
+		3502CD9E22510B0E00CEDAC0 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				3502CD862251096700CEDAC0 /* ConsumerTextField.h */,
-				3502CD832251096700CEDAC0 /* ConsumerTextField.m */,
-				3502CD812251096700CEDAC0 /* InputTextFieldValidate.h */,
-				3502CD7F2251096700CEDAC0 /* InputTextFieldValidate.m */,
-				3502CD842251096700CEDAC0 /* LatterTextFieldValidate.h */,
-				3502CD802251096700CEDAC0 /* LatterTextFieldValidate.m */,
-				3502CD852251096700CEDAC0 /* NumberTextFieldValidate.h */,
-				3502CD822251096700CEDAC0 /* NumberTextFieldValidate.m */,
+				3502CDB022510B8D00CEDAC0 /* AbstractAdapter.h */,
+				3502CDA822510B8D00CEDAC0 /* AbstractAdapter.m */,
+				3502CDB222510B8D00CEDAC0 /* ContentViewAdapterProtocol.h */,
+				3502CDAC22510B8D00CEDAC0 /* Model.h */,
+				3502CDAF22510B8D00CEDAC0 /* Model.m */,
+				3502CDB122510B8D00CEDAC0 /* ModelAdapter.h */,
+				3502CDA722510B8D00CEDAC0 /* ModelAdapter.m */,
+				3502CDA622510B8D00CEDAC0 /* ModelAdapterManager.h */,
+				3502CDA922510B8D00CEDAC0 /* ModelAdapterManager.m */,
+				3502CDAD22510B8D00CEDAC0 /* OtherModeAdapter.h */,
+				3502CDAE22510B8D00CEDAC0 /* OtherModeAdapter.m */,
+				3502CDAA22510B8D00CEDAC0 /* OtherModel.h */,
+				3502CDAB22510B8D00CEDAC0 /* OtherModel.m */,
 			);
-			path = Strategy;
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,14 +265,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3502CDB522510B8D00CEDAC0 /* ModelAdapterManager.m in Sources */,
+				3502CDC722510BAA00CEDAC0 /* DecoratorGPS.m in Sources */,
+				3502CDC622510BAA00CEDAC0 /* NokiaPhone.m in Sources */,
+				3502CDC322510BAA00CEDAC0 /* AbstractCellPhone.m in Sources */,
+				3502CDA022510B0E00CEDAC0 /* StandardSubjectImplementation.m in Sources */,
+				3502CDA422510B0E00CEDAC0 /* InputTextFieldValidate.m in Sources */,
+				3502CD9F22510B0E00CEDAC0 /* OtherSubscriber.m in Sources */,
+				3502CDC522510BAA00CEDAC0 /* Decorator.m in Sources */,
+				3502CDB422510B8D00CEDAC0 /* AbstractAdapter.m in Sources */,
+				3502CDA522510B0E00CEDAC0 /* LatterTextFieldValidate.m in Sources */,
+				3502CDB322510B8D00CEDAC0 /* ModelAdapter.m in Sources */,
 				3502CD65225103E500CEDAC0 /* DesignPattern.m in Sources */,
-				3502CD752251066B00CEDAC0 /* SomeSubscriber.m in Sources */,
-				3502CD892251096700CEDAC0 /* NumberTextFieldValidate.m in Sources */,
-				3502CD8A2251096700CEDAC0 /* ConsumerTextField.m in Sources */,
-				3502CD78225106C500CEDAC0 /* OtherSubscriber.m in Sources */,
-				3502CD7E225106EA00CEDAC0 /* StandardSubjectImplementation.m in Sources */,
-				3502CD872251096700CEDAC0 /* InputTextFieldValidate.m in Sources */,
-				3502CD882251096700CEDAC0 /* LatterTextFieldValidate.m in Sources */,
+				3502CDA222510B0E00CEDAC0 /* NumberTextFieldValidate.m in Sources */,
+				3502CDA122510B0E00CEDAC0 /* SomeSubscriber.m in Sources */,
+				3502CDB722510B8D00CEDAC0 /* OtherModeAdapter.m in Sources */,
+				3502CDC422510BAA00CEDAC0 /* DecoratorWifi.m in Sources */,
+				3502CDB822510B8D00CEDAC0 /* Model.m in Sources */,
+				3502CDB622510B8D00CEDAC0 /* OtherModel.m in Sources */,
+				3502CDA322510B0E00CEDAC0 /* ConsumerTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
