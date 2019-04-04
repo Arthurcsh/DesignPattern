@@ -3,7 +3,7 @@
 //  DesignPatternTests
 //
 //  Created by chengshaohua on 2019/4/1.
-//  Copyright © 2019 oyohotels.cn. All rights reserved.
+//  Copyright © 2019 chshua@icloud.com. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
